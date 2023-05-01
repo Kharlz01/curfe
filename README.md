@@ -1,2 +1,2 @@
 # curfe
-Repositorio hechi para el curso de Front End Basico
+Repositorio hecho para el curso de Front End Basico
