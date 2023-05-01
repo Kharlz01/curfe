@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectores 2</title>
+    <style>
+        div p{
+            color: limegreen;
+        }
+        div > div {
+            background-color: coral;
+        }
+        .es{
+            background-color: red;
+        }
+        div + section {
+            background: peru;
+        }
+        div ~ p {
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <div>
+            <p>Hola mundo</p>
+            <div class="es">x2</div>
+        </div>
+    </div>
+    <section>
+        Es un nuevo mundo
+    </section>
+    <p>Clase de selectores</p>
+</body>
+</html>
