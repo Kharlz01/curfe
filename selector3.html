@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selector 3</title>
+    <style>
+        p {
+            color: salmon;
+        }
+        p::first-letter{
+            color: teal;
+        }
+        p::before{
+            content: "😅";
+        }
+        p::after{
+            content: "🤔";
+        }
+        p:hover {
+            color: skyblue;
+        }
+        div p:nth-child(2){
+            color: violet;
+        }
+        ::placeholder {
+            color: tomato;
+        }
+    </style>
+</head>
+<body>
+    <p>Hola</p>
+    <div>
+        <p>Texto</p>
+        <p>Sin ningun</p>
+        <p>Sentido</p>
+    </div>
+    <input type="text" placeholder="Name">
+</body>
+</html>
