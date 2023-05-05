@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propiedades</title>
+    <style>
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+        .card{
+           width: 500px;
+           height: 500px;
+           background-image: url(https://images.pexels.com/photos/9667826/pexels-photo-9667826.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+           border-radius: 20px;
+           overflow: hidden;
+           box-sizing: border-box;
+           border: 5px solid rgba(14, 14, 173, 0.712);
+        }
+        .card img{
+            width: 500px;
+            height: 150px;
+            border-bottom: 2px solid white;
+        }
+        .card img:nth-child(2){
+            width: 150px;
+            height: 150px;
+            position: absolute;
+            top: 90px;
+            right: 385px;
+            border-radius: 90px;
+            border: 3px solid white;
+        }
+        .name{
+            text-align: center;
+            font-size: larger;
+            color: azure;
+            margin-top: 115px;
+        }
+        .cargo{
+            text-align: center;
+            font-size: large;
+            color: blueviolet;
+            margin-top: 0px;
+        }
+        .follow{
+            margin-top: 115px;
+            text-align: center;
+            padding-top: 5px;
+            font-size: 30px;
+            width: 500px;
+            height: 50px;            
+            background-color: rgb(0, 250, 167);
+            color: blue;
+        }
+    </style>
+</head>
+<body>
+   <section>
+    <div class="card">
+        <img src="https://images.pexels.com/photos/169573/pexels-photo-169573.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="image">
+        <img src="https://i.pinimg.com/736x/14/41/3b/14413b44171a2a3d85e458908bf43339.jpg" alt="aqua">
+        <p class="name">Carlos Andrés Agudelo M.</p>
+        <p class="cargo">Ing. Electronico</p>
+        <p class="follow">Follow me</p>
+    </div>
+   </section> 
+</body>
+</html>
